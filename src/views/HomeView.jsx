@@ -49,7 +49,7 @@ export default function HomeView() {
             }}
           >
             <img
-              src={user.avatar || 'https://via.placeholder.com/40'}
+              src={user.avatar || 'https://placehold.co/40x40'}
               alt={user.firstName}
               style={homeStyles.avatar}
             />
